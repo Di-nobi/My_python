@@ -33,7 +33,7 @@ while True:
             print("Paper")
         elif randomnum == 3:
             move = 's'
-            print("Scissor")
+            print("Scissors")
 
             if userin == move:
                 print('A tie')
@@ -42,18 +42,18 @@ while True:
             elif userin == 'r' and move == 's':
                 print('You win')
                 win += 1
-            elif userin == 's' and move == 'r':
-                print('You lose')
-                loss += 1
             elif userin == 'p' and move == 'r':
                 print('You win')
                 win += 1
-            elif userin == 'r' and move == 'p':
-                print('You lose')
-                loss += 1
             elif userin == 's' and move == 'p':
                 print('You win')
                 win += 1
+            elif userin == 's' and move == 'r':
+                print('You lose')
+                loss += 1
+            elif userin == 'r' and move == 'p':
+                print('You lose')
+                loss += 1
             elif userin == 'p' and move == 's':
                 print('You lose')
                 loss += 1
