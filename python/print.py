@@ -1,0 +1,2 @@
+s = 'This'
+print('{s}')
