@@ -16,7 +16,14 @@
 #sys.stderr.write("and that piece of art is useful - Dora Korpar, 2015-10-19\n")
 #sys.exit()
 
-def magic_calculation(a, b):
-    return 98 + (a ** b)
-s = magic_calculation(4, 2)
-print(s)
+#def magic_calculation(a, b):
+ #   return 98 + (a ** b)
+#s = magic_calculation(4, 2)
+#print(s)
+
+
+
+
+
+str = "Stanley"
+print(str[:6] + str[0+1:])
