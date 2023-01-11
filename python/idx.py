@@ -1,3 +1,5 @@
 my_list = ['ade', 'Dinobi']
-idx = my_list[0]
-print("{}".format(idx))
+tmp = my_list
+tmp[1] = 'Stanley'
+print(my_list)
+print(tmp)

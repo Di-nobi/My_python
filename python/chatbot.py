@@ -2,16 +2,16 @@ import sys
 ## INTELLIGENT CHATBOT FOR NOBMART
 
 print("HI!!, THIS IS NOBMART CHATBOT\n")
-print("SELECT ONE OPTION OR IF YOU WISH TO QUIT 'Q'")
-
-# Taking inputing from user
-#while True:
-reply = input()
-if reply == 'q':
-    sys.exit()
-    print("Missing goods?")
-#        reply1 = input()
-if reply == 'N' or "NO":
-    sys.exit()
-elif reply == 'y' or "yes":
-    print("Please contact our agents @ nobmart@help.com")
+print("HOW MAY WE HELP YOU TODAY??\n")
+print("TAP 'Y' TO CONTACT OUR CUSTOMER SERVICE PERSONNELS OR 'W' TO WRITE TO US")
+while True:
+    userin = input()
+    if userin == 'Y':
+        print("Hang on as an agent will be available shortly")
+        sys.exit()
+    elif userin == 'W':
+        print("You can contact us @ nobmart@help.com")
+        sys.exit()
+    else:
+        print("Please select a valid input as requested above")
+        continue
