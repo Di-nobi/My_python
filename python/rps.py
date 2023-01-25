@@ -5,18 +5,19 @@ print('Rock, Paper, Scissors')
 loss = 0
 win = 0
 tie = 0
-#while True:
-#    print('%s Win, %s Loss, %s Ties' % (win, loss, tie))
+while True:
+    print('%s Win, %s Loss, %s Ties' % (win, loss, tie))
 while True:
     print('Enter an input: rock, paper, scissor: ')
     userin = input()
-    if userin == 'q': sys.exit()
+    if userin == 'q': 
+        sys.exit()
 
     elif userin == 'r' or userin == 'p' or userin == 's':
         break
     while True:
         print('%s Win, %s Loss, %s Ties' % (win, loss, tie))
-#    print('select one of r, p, s')
+    print('select one of r, p, s')
 
     if userin == 'r':
         print('Rock vs ...')
